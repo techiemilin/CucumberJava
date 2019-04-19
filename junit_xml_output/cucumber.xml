@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="100.35567">
+<testcase classname="Login Function" name="login with right username and password" time="30.959136">
+<system-out><![CDATA[Given invoke browser........................................................passed
+When enter the url "http://practice.automationtesting.in/"..................passed
+And click on my account.....................................................passed
+And Enter username and password.............................................passed
+And click on login..........................................................passed
+Then user should log in successfully........................................passed
+Then Browser closes.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Function with Parameters" name="login with right username and password in featurefile" time="15.467127">
+<system-out><![CDATA[Given invoke browser........................................................passed
+When enter the url "http://practice.automationtesting.in/"..................passed
+And click on my account.....................................................passed
+And Enter username "pavanoltraining" and password "Test@selenium123"........passed
+And click on login..........................................................passed
+Then user should log in successfully........................................passed
+Then Browser closes.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Function with Parameters" name="login with right username and password in featurefile" time="17.273776">
+<system-out><![CDATA[Given invoke browser........................................................passed
+When enter the url "http://practice.automationtesting.in/"..................passed
+And click on my account.....................................................passed
+And Enter username "milinpatel" and password "Test@12345"...................passed
+And click on login..........................................................passed
+Then user should log in successfully........................................passed
+Then Browser closes.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Function with Parameters" name="login with right username and password in featurefile 2" time="15.609607">
+<system-out><![CDATA[Given invoke browser........................................................passed
+When enter the url "http://practice.automationtesting.in/"..................passed
+And click on my account.....................................................passed
+And Enter username "MilinPatel" and password "test@13243"...................passed
+And click on login..........................................................passed
+Then user should log in successfully........................................passed
+Then Browser closes.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Function with Parameters" name="login with right username and password in featurefile 3" time="21.046024">
+<system-out><![CDATA[Given invoke browser........................................................passed
+When enter the url "http://practice.automationtesting.in/"..................passed
+And click on my account.....................................................passed
+And Enter username "pavanoltraining" and password "Test@selenium123"........passed
+And click on login..........................................................passed
+Then user should log in successfully........................................passed
+Then Browser closes.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
